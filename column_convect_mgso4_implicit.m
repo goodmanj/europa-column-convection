@@ -1,5 +1,8 @@
 % Requires mgso4 equation-of-state toolkit.
 
+% This version implements an explicit convectively-stable upper layer of
+% variable thickness (a "Melosh stratosphere").
+
 % Uncomment to use interpolation version of mgso4 toolkit.
 addpath('mgso4interp') % Local subdirectory
 %rmpath('~/Dropbox/europa column convection implicit package/mgso4interp/');
